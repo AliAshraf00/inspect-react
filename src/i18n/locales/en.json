@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "title": "Inspection | Independent Technical Review & Engineering Inspection"
+  },
+  "brand": {
+    "sloganAr": "امتثال. استدامة. سلامة. جودة حياة",
+    "sloganEn": "Compliance. Sustainability. Safety. Life Quality"
+  },
+  "ticker": {
+    "phone": "920001234",
+    "email": "info@inspection.sa"
+  },
+  "nav": {
+    "home": "Inspection",
+    "services": "Services",
+    "sectors": "Sectors",
+    "projects": "Our Projects",
+    "blog": "Insights",
+    "portal": "Client Portal",
+    "verify": "Verify Report",
+    "request": "Request Service"
+  },
+  "hero": {
+    "badgeSlogans": [
+      "Architectural drawing of your home",
+      "Modern Saudi villa",
+      "Fully integrated digital plan",
+      "Panoramic tower view",
+      "Code-compliant structural design",
+      "Standards-compliant mechanical design"
+    ],
+    "titles": [
+      "Independent technical review of residential building designs and drawings",
+      "An independent, objective technical perspective at every stage of your engineering project",
+      "Applying standards means a safer future and better quality of life",
+      "We are experts in reviewing designs and drawings under the Saudi Building Code",
+      "A comprehensive review across every engineering discipline in a single report",
+      "A digital client portal to track your request status and receive your reports"
+    ],
+    "ctaDiscover": "Explore Our Services",
+    "ctaRequest": "Request Service"
+  },
+  "subHero": {
+    "item1": "Saudi Building Code",
+    "item2": "Residential Buildings",
+    "item3": "Independent Technical Review"
+  },
+  "services": {
+    "kicker": "Scope of Work",
+    "titlePlain": "Our",
+    "titleAccent": "Specialized Engineering Services",
+    "desc": "A comprehensive technical review of every engineering discipline, carried out by an independent team before execution begins to avoid unplanned risks and costs.",
+    "items": [
+      {
+        "num": "01",
+        "title": "Architectural Design Review",
+        "front": "Checking architectural drawings against municipal requirements and the building code.",
+        "back": "A detailed review of architectural plans and facades, ensuring compliance with municipal and civil defense requirements before licensing.",
+        "bullets": ["Setback and height compliance", "Review of plans and facades", "Verification against the Saudi Building Code"]
+      },
+      {
+        "num": "02",
+        "title": "Structural Design Review",
+        "front": "Verifying structural safety, loads, and engineering calculations.",
+        "back": "Auditing structural calculations and drawings to confirm load-bearing capacity in line with the Saudi Structural Design Code.",
+        "bullets": ["Loads and reinforcement review", "Structural drawing inspection", "Verification against approved codes"]
+      },
+      {
+        "num": "03",
+        "title": "Electrical Systems Review",
+        "front": "Auditing electrical designs against SBC 401 and safety standards.",
+        "back": "Reviewing electrical loads, panels, and feeders to ensure efficiency and safety in line with SBC 401.",
+        "bullets": ["Electrical load calculations", "Panel and feeder review", "Grounding and safety verification"]
+      },
+      {
+        "num": "04",
+        "title": "HVAC Systems Review",
+        "front": "Evaluating ventilation and HVAC systems for efficiency and technical fit.",
+        "back": "Reviewing HVAC loads and ventilation, confirming the chosen systems are efficient and compatible with the architectural design.",
+        "bullets": ["Thermal load calculations", "Ductwork routing review", "Energy efficiency evaluation"]
+      },
+      {
+        "num": "05",
+        "title": "Plumbing & Drainage",
+        "front": "Reviewing water and drainage networks against health requirements.",
+        "back": "Inspecting water supply and sanitary drainage networks to confirm compliance with approved health and environmental requirements.",
+        "bullets": ["Pipe diameter review", "Drainage network inspection", "Discharge point verification"]
+      },
+      {
+        "num": "06",
+        "title": "Fire Protection & Safety",
+        "front": "Checking alarm and suppression systems and general evacuation routes.",
+        "back": "Reviewing early warning and suppression systems and evacuation routes to confirm compliance with civil defense requirements.",
+        "bullets": ["Early warning system inspection", "Suppression network review", "Emergency exit verification"]
+      },
+      {
+        "num": "07",
+        "title": "Energy Efficiency & Thermal Insulation",
+        "front": "Assessing thermal insulation compliance and energy efficiency requirements.",
+        "back": "Evaluating insulation materials and their compliance with energy efficiency requirements under Saudi energy-saving building standards.",
+        "bullets": ["Insulation thickness and layer review", "Thermal performance coefficient check", "Energy code compliance"]
+      },
+      {
+        "num": "08",
+        "title": "General Code Compliance",
+        "front": "A comprehensive report combining results from every discipline into one compliance document.",
+        "back": "Consolidating review results from every discipline into a unified report showing compliance points and notes before execution begins.",
+        "bullets": ["Unified report across all disciplines", "Notes classified by severity", "Recommendations before execution"]
+      }
+    ]
+  },
+  "costFlow": {
+    "kicker": "Why Review Early",
+    "titlePlain": "The Cost of a",
+    "titleAccent": "Design Error",
+    "titleSuffix": "Doubles Over Time",
+    "desc": "Every stage where an engineering flaw goes undetected doubles the cost of fixing it — independent review before execution saves it entirely.",
+    "stages": [
+      { "num": "01", "title": "Design Stage", "desc": "Fixing an error here costs the least in time and money." },
+      { "num": "02", "title": "Review & Assessment", "desc": "The critical checkpoint before any execution commitment." },
+      { "num": "03", "title": "Execution & Construction", "desc": "Finding a flaw here means demolition, rebuilding, and doubled costs." }
+    ]
+  },
+  "journey": {
+    "kicker": "Client Journey",
+    "titlePlain": "Five Clear Steps",
+    "titleAccent": "From",
+    "titleSuffix": "Request to Report",
+    "steps": [
+      { "num": "01", "title": "Submit Drawings & Contact", "desc": "Upload files and project data through the online form." },
+      { "num": "02", "title": "Review & General Audit", "desc": "A comprehensive technical inspection of every discipline by our engineers." },
+      { "num": "03", "title": "Log Non-Compliance Points", "desc": "Precise documentation of any deviation from the Saudi Building Code." },
+      { "num": "04", "title": "Issue the Official Report", "desc": "A traceable report outlining findings and recommendations." },
+      { "num": "05", "title": "Request Re-Evaluation", "desc": "Review the changes and confirm full compliance." }
+    ]
+  },
+  "codeGuide": {
+    "kicker": "Technical Reference",
+    "titlePlain": "Saudi",
+    "titleAccent": "Building Code",
+    "titleSuffix": "Guide",
+    "desc": "We work in accordance with officially approved codes to ensure full, documentable compliance.",
+    "approved": "Approved",
+    "cards": [
+      { "num": "01", "code": "SBC 1101 – 1102", "title": "Residential Code", "desc": "Requirements for residential buildings including villas, duplexes, and residential complexes." },
+      { "num": "02", "code": "SBC 401", "title": "Electrical Code", "desc": "Design and execution requirements for electrical systems within the building." },
+      { "num": "03", "code": "SBC 201", "title": "General Building Code", "desc": "General structural safety requirements and building use classification." }
+    ]
+  },
+  "sectors": {
+    "kicker": "Sectors",
+    "titlePlain": "Experience Across",
+    "titleAccent": "Multiple",
+    "titleSuffix": "Sectors",
+    "more": "More",
+    "items": [
+      { "title": "Residential", "desc": "Villas, duplexes, residential complexes", "image": "/images/sector-residential.jpeg" },
+      { "title": "Commercial", "desc": "Offices, shopping centers, towers", "image": "/images/sector-commercial.jpeg" },
+      { "title": "Industrial", "desc": "Facilities, factories, warehouses", "image": "/images/sector-industrial.jpeg" },
+      { "title": "Government", "desc": "Public facilities and utilities", "image": "/images/sector-government.jpeg" }
+    ]
+  },
+  "stats": {
+    "kicker": "Our Impact So Far",
+    "titlePlain": "Our Projects",
+    "titleAccent": "In Numbers",
+    "items": [
+      { "target": 460, "suffix": "+", "label": "Projects reviewed" },
+      { "target": 98, "suffix": "%", "label": "Client satisfaction rate" },
+      { "target": 14, "suffix": "", "label": "Average report turnaround (days)" },
+      { "target": 7, "suffix": "", "label": "Engineering disciplines covered" }
+    ]
+  },
+  "audience": {
+    "homeowners": {
+      "tag": "For Homeowners",
+      "title": "Building your home? Start with a design review",
+      "desc": "Make sure your home's design complies with the Saudi Building Code before you break ground — a simple decision that saves you many times its cost later.",
+      "cta": "See Our Plans"
+    },
+    "firms": {
+      "tag": "For Engineering Firms",
+      "title": "Pre-submission review and independent certification",
+      "desc": "A technical partnership for engineering firms that gives your clients an extra layer of documentation and reduces the municipal rejection rate.",
+      "cta": "Talk To Us"
+    }
+  },
+  "why": {
+    "kicker": "Why Inspection",
+    "titlePlain": "Four Principles",
+    "titleAccent": "We Never",
+    "titleSuffix": "Compromise On",
+    "items": [
+      { "num": "01", "title": "Independence & Neutrality", "desc": "No execution or commercial relationship with project contractors." },
+      { "num": "02", "title": "Objective Technical Perspective", "desc": "Assessment based solely on code and engineering standards." },
+      { "num": "03", "title": "Traceable Results", "desc": "Every note is documented with a reference number and an official report." },
+      { "num": "04", "title": "Fully Digital Workflow", "desc": "From file upload to report delivery, without paper." }
+    ]
+  },
+  "blog": {
+    "kicker": "Knowledge Library",
+    "titlePlain": "Articles",
+    "titleAccent": "on the Building Code & Design Violations",
+    "readArticle": "Read Article",
+    "viewAll": "View All Articles",
+    "viewAllSub": "The Full Knowledge Library",
+    "featured": {
+      "badge": "Residential Code",
+      "title": "Five Common Mistakes in Residential Villa Drawings",
+      "desc": "A review of the most recurring violations in drawings submitted for approval, and how to avoid them before execution.",
+      "date": "Aug 2026",
+      "read": "4 min"
+    },
+    "list": [
+      { "cat": "SBC 401", "title": "A Simplified Guide to Electrical Design Requirements", "date": "Jul 2026", "read": "6 min" },
+      { "cat": "Safety", "title": "Why Evacuation Routes Fail in Residential Buildings", "date": "Jun 2026", "read": "5 min" },
+      { "cat": "Building Code", "title": "Key Amendments to the 2026 Saudi Building Code", "date": "May 2026", "read": "7 min" }
+    ]
+  },
+  "faq": {
+    "kicker": "FAQ",
+    "titlePlain": "Frequently",
+    "titleAccent": "Asked",
+    "titleSuffix": "Questions",
+    "badgeNum": "+460",
+    "badgeLabel": "Projects reviewed",
+    "items": [
+      { "q": "How long does it take to issue the technical review report?", "a": "It depends on the project size and service type requested, averaging between 7 and 14 business days from receiving the complete drawings." },
+      { "q": "Is your report accepted by municipal authorities?", "a": "Yes, the report is issued in an official, documented format that can be used as part of the project file before the relevant authorities." },
+      { "q": "Do you offer a re-evaluation service after revisions?", "a": "Yes, once we receive the revised drawings we re-evaluate only the items previously flagged." },
+      { "q": "Is the service available to engineering firms on an ongoing basis?", "a": "We offer ongoing review partnerships for engineering firms with preferential pricing based on annual collaboration volume." }
+    ]
+  },
+  "form": {
+    "kicker": "Request Service",
+    "titlePlain": "Start Your",
+    "titleAccent": "Review",
+    "titleSuffix": "Request",
+    "desc": "Enter your project details and upload your drawings, and our team will contact you within one business day.",
+    "projectType": "Project Type",
+    "projectTypeChoose": "Choose project type",
+    "projectTypes": ["Villa", "Duplex", "Townhouse", "Residential Building", "Other"],
+    "location": "Project Location",
+    "locationPlaceholder": "City / District",
+    "area": "Area (m²)",
+    "areaPlaceholder": "e.g. 350",
+    "floors": "Number of Floors",
+    "floorsPlaceholder": "e.g. 3",
+    "stage": "Design Stage",
+    "stageChoose": "Choose the stage",
+    "stages": ["Preliminary", "Detailed", "Pre-submission", "Pre-execution"],
+    "requestedServices": "Requested Services",
+    "servicesOptions": ["Architectural", "Structural", "Electromechanical", "Fire Safety"],
+    "servicesFull": "Comprehensive review of all disciplines",
+    "upload": "Upload Drawings",
+    "uploadHint": "Drag and drop files here or click to browse (PDF, DWG)",
+    "name": "Name / Company",
+    "phone": "Mobile Number",
+    "email": "Email Address",
+    "submit": "Submit for a Quote",
+    "successTitle": "Your Request Was Received",
+    "successDesc": "Our technical team will contact you within one business day to discuss the review details."
+  },
+  "portal": {
+    "kicker": "Digital Services",
+    "titlePlain": "Client Portal",
+    "titleAccent": "& Verification",
+    "verify": { "title": "Verify Report", "desc": "Verify the authenticity of any issued report by reference number.", "cta": "Verify Now" },
+    "client": { "title": "Client Portal", "desc": "Track your request status and past reports in one place.", "cta": "Sign In" }
+  },
+  "footer": {
+    "desc": "An independent body for technical review and engineering inspection, based on the Saudi Building Code.",
+    "company": "Company",
+    "aboutUs": "About Us",
+    "jobs": "Careers",
+    "ourProjects": "Our Projects",
+    "servicesTitle": "Services",
+    "technicalReview": "Technical Review",
+    "faqLink": "FAQ",
+    "requestLink": "Request Service",
+    "reference": "Reference",
+    "sbcGuide": "SBC Guide",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy",
+    "contact": "Contact Us",
+    "address": "Riyadh, Saudi Arabia",
+    "copyright": "© 2026 Inspection. All rights reserved.",
+    "brandEn": "Inspection Services"
+  }
+}
