@@ -18,7 +18,8 @@
     "blog": "Insights",
     "portal": "Client Portal",
     "verify": "Verify Report",
-    "request": "Request Service"
+    "request": "Request Service",
+    "contact": "Contact us"
   },
   "hero": {
     "badgeSlogans": [
@@ -286,5 +287,253 @@
     "address": "Riyadh, Saudi Arabia",
     "copyright": "© 2026 Inspection. All rights reserved.",
     "brandEn": "Inspection Services"
+  }
+,
+  "servicesPage": {
+    "eyebrow": "Drawing Register — 8 Disciplines",
+    "heroTitle": "Every service is pinned to its real location on the plan",
+    "heroDesc": "This is an interactive engineering board: each review marker points to its real position on the layout, matched by a detail sheet in the drawing register below.",
+    "heroHint": "Click any marker on the board, or hover the drawing register below",
+    "dwgLabel": "DWG · RESIDENTIAL PLAN · REV A",
+    "legendCloud": "Review marker",
+    "registryEyebrow": "Drawing Register",
+    "registryTitleA": "Eight",
+    "registryTitleAccent": "review sheets",
+    "registryTitleB": "for every engineering discipline",
+    "registryDesc": "Filter by discipline, or open any sheet to see the scope of work, deliverables, and estimated duration.",
+    "groups": {
+      "all": "All",
+      "عام": "General",
+      "معماري": "Architectural",
+      "إنشائي": "Structural",
+      "كهروميكانيكي": "MEP",
+      "سلامة": "Safety",
+      "طاقة": "Energy"
+    },
+    "colIndex": "#",
+    "colSheet": "Sheet",
+    "colScope": "Scope",
+    "detailEmpty": "Choose a sheet from the register, or a marker on the plan above, to view the full review details here.",
+    "deliverablesTitle": "Report Deliverables",
+    "durationTitle": "Estimated Duration",
+    "stampApproved": "Approved",
+    "requestReview": "Request this review",
+    "includesEyebrow": "In every sheet",
+    "includesTitleA": "Four fixed items in",
+    "includesTitleAccent": "every report",
+    "includesTitleB": "we issue",
+    "includes": [
+      {
+        "title": "Traceable reference number",
+        "text": "Every report carries a unique sheet number that can be verified later."
+      },
+      {
+        "title": "Code reference citation",
+        "text": "Every note is tied to a specific clause of the Saudi Building Code."
+      },
+      {
+        "title": "Non-conformance matrix",
+        "text": "A table showing every deviation found and its location on the plan."
+      },
+      {
+        "title": "Re-evaluation option",
+        "text": "A free review of corrected items after resolution."
+      }
+    ],
+    "ctaTitle": "Ready to start reviewing your project on the board?",
+    "ctaRequest": "Request Service",
+    "ctaVerify": "Verify a previous report",
+    "items": {
+      "g": {
+        "title": "General Code Compliance",
+        "short": "A unified report combining results from every discipline.",
+        "scope": "Consolidates results from all discipline sheets into one compliance report ready for submission to relevant authorities, with an executive summary of key findings.",
+        "duration": "10–14 business days",
+        "deliverables": [
+          "Unified compliance report",
+          "Executive summary of findings",
+          "Findings tracking matrix"
+        ]
+      },
+      "a": {
+        "title": "Architectural Design Review",
+        "short": "Checking architectural drawings against municipal requirements.",
+        "scope": "Review of plans, elevations, and sections to verify compliance with municipal requirements and the residential building code, including setbacks, ratios, and uses.",
+        "duration": "7–10 business days",
+        "deliverables": [
+          "Notes on every plan",
+          "List of setback violations, if any",
+          "Simplified amendment recommendations"
+        ]
+      },
+      "s": {
+        "title": "Structural Design Review",
+        "short": "Verifying structural safety and loads.",
+        "scope": "Review of structural drawings, column grid, and structural calculations to confirm adequate sections and compliance with the loading code and seismic resistance.",
+        "duration": "8–12 business days",
+        "deliverables": [
+          "Load calculation audit",
+          "Column grid assessment",
+          "Notes on reinforcement drawings"
+        ]
+      },
+      "e": {
+        "title": "Electrical Systems Review",
+        "short": "Auditing electrical designs per SBC 401.",
+        "scope": "Review of panels, loads, circuits, and cable routing, and verification of grounding and electrical safety standards for the residential building.",
+        "duration": "5–8 business days",
+        "deliverables": [
+          "Load schedule audit",
+          "Panel location review",
+          "Grounding and protection notes"
+        ]
+      },
+      "m": {
+        "title": "HVAC Systems Review",
+        "short": "Assessing ventilation and air conditioning efficiency.",
+        "scope": "Review of duct routing, unit locations, and ventilation rates to confirm distribution efficiency and compliance with indoor air quality requirements.",
+        "duration": "5–7 business days",
+        "deliverables": [
+          "Main duct route review",
+          "Unit capacity assessment",
+          "Natural ventilation notes"
+        ]
+      },
+      "p": {
+        "title": "Plumbing & Sanitary Drainage",
+        "short": "Review of water supply and sanitary drainage networks.",
+        "scope": "Review of supply and sanitary drainage drawings and vertical shaft locations, and verification of slopes and diameters against the plumbing code.",
+        "duration": "5–7 business days",
+        "deliverables": [
+          "Supply layout review",
+          "Drainage layout review",
+          "Vertical shaft notes"
+        ]
+      },
+      "fp": {
+        "title": "Fire Protection & Safety",
+        "short": "Checking alarm systems and evacuation routes.",
+        "scope": "Review of evacuation routes, exit widths, and alarm/extinguishing device locations, and confirmation of compliance with safe egress distances.",
+        "duration": "6–9 business days",
+        "deliverables": [
+          "Evacuation route assessment",
+          "Alarm and extinguishing location review",
+          "Exit width notes"
+        ]
+      },
+      "ee": {
+        "title": "Energy Efficiency & Thermal Insulation",
+        "short": "Assessing insulation compliance and energy efficiency requirements.",
+        "scope": "Review of wall and roof insulation thickness and type, and calculation of thermal transmittance to confirm compliance with energy efficiency requirements.",
+        "duration": "4–6 business days",
+        "deliverables": [
+          "Insulation thickness assessment",
+          "Transmittance coefficient calculation",
+          "Efficiency improvement recommendations"
+        ]
+      }
+    }
+  },
+  "contactPage": {
+    "eyebrow": "Contact",
+    "heroTitle": "Request a Technical Review",
+    "heroDesc": "Enter your project details, choose the required services, and upload your drawings — follow your request's journey below from submission to report.",
+    "badge": "First response within one business day",
+    "route": {
+      "today": "Today",
+      "receiveTitle": "Request received",
+      "reviewTime": "7–14 business days",
+      "reviewTitle": "Technical review",
+      "officialCopy": "Official copy",
+      "reportTitle": "Compliance report",
+      "whenNeeded": "When needed",
+      "reevalTitle": "Re-evaluation"
+    },
+    "stats": {
+      "projects": "projects reviewed",
+      "satisfaction": "client satisfaction",
+      "firstResponseDays": "day for first response"
+    },
+    "sideContact": {
+      "title": "Contact Details",
+      "phoneLabel": "Customer line",
+      "emailLabel": "Email",
+      "cityLabel": "Saudi Arabia"
+    },
+    "afterSubmit": {
+      "title": "What happens after you submit?",
+      "steps": [
+        {
+          "title": "Receipt confirmation",
+          "text": "An instant confirmation message with your request details"
+        },
+        {
+          "title": "Initial technical review",
+          "text": "Our team defines the scope of work and duration"
+        },
+        {
+          "title": "Quote & timeline",
+          "text": "We send clear details within one business day"
+        }
+      ]
+    },
+    "map": {
+      "caption": "RIYADH · SAUDI ARABIA"
+    },
+    "form": {
+      "projectType": {
+        "label": "Project type",
+        "placeholder": "Choose project type",
+        "options": [
+          "Villa",
+          "Duplex",
+          "Townhouse",
+          "Residential building",
+          "Other"
+        ]
+      },
+      "location": {
+        "label": "Project location",
+        "placeholder": "City / District"
+      },
+      "area": {
+        "label": "Project area (m²)",
+        "placeholder": "e.g. 350"
+      },
+      "floors": {
+        "label": "Number of floors",
+        "placeholder": "e.g. 3"
+      },
+      "stage": {
+        "label": "Design stage",
+        "placeholder": "Choose stage",
+        "options": [
+          "Preliminary design",
+          "Detailed design",
+          "Before submission",
+          "Before construction starts"
+        ]
+      },
+      "servicesLabel": "Requested services",
+      "servicesOptions": [
+        "Architectural design",
+        "Structural design",
+        "Electrical works",
+        "Mechanical works",
+        "Plumbing works",
+        "Fire protection & life safety systems"
+      ],
+      "servicesFull": "Comprehensive review",
+      "uploadLabel": "Upload drawings",
+      "uploadHint": "Drag & drop files here or click to browse (PDF, DWG)",
+      "nameLabel": "Name / Company",
+      "phoneLabel": "Phone number",
+      "emailLabel": "Email address",
+      "submit": "Send request"
+    },
+    "success": {
+      "title": "Your request has been received",
+      "text": "Our technical team will contact you within one business day to discuss the review details."
+    }
   }
 }

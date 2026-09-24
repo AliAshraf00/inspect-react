@@ -7,7 +7,7 @@ export default function AudiencePanels() {
 
   return (
     <div className="grid grid-cols-1 gap-px bg-black/10 md:grid-cols-2">
-      <Reveal className="bg-white p-11 sm:p-16">
+      <Reveal className="bg-white p-11 sm:p-16 border-[1px] border-orange">
         <div className="mb-4 text-[13px] font-bold text-orange">{t('audience.homeowners.tag')}</div>
         <h3 className="mb-4 text-[28px] font-bold leading-snug">{t('audience.homeowners.title')}</h3>
         <p className="mb-7 max-w-[440px] text-[15.5px] text-[#4B4B45]">{t('audience.homeowners.desc')}</p>

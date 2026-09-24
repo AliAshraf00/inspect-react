@@ -1,6 +1,7 @@
 import { AnimatePresence, motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import Button from '../ui/Button';
+import { Link } from 'react-router-dom';
 
 export default function MobileDrawer({ open, onClose, navItems }) {
   const { t } = useTranslation();
@@ -23,18 +24,22 @@ export default function MobileDrawer({ open, onClose, navItems }) {
             exit={{ x: '100%' }}
             transition={{ type: 'tween', duration: 0.35 }}
           >
-            {navItems.map((item) => (
-              <a
-                key={item.id}
-                href={`#${item.id}`}
-                onClick={onClose}
-                className="border-b border-black/[0.06] py-2 text-[17px] font-semibold"
-              >
-                {item.label}
-              </a>
-            ))}
-            <Button as="a" href="#request" variant="primary" className="text-center" onClick={onClose}>
-              {t('nav.request')}
+            {navItems.map((item) => {
+              const isServices = item.id === 'services';
+              const to = isServices ? '/services' : `/#${item.id}`;
+              return (
+                <Link
+                  key={item.id}
+                  to={to}
+                  onClick={onClose}
+                  className="border-b border-black/[0.06] py-2 text-[17px] font-semibold"
+                >
+                  {item.label}
+                </Link>
+              );
+            })}
+            <Button as={Link} to="/contact" variant="primary" className="text-center" onClick={onClose}>
+              {t('nav.contact')}
             </Button>
           </motion.div>
         </>

@@ -6,10 +6,12 @@
   html {
     scroll-behavior: smooth;
   }
+
   body {
     @apply bg-bg text-ink font-ar antialiased overflow-x-hidden;
     line-height: 1.65;
   }
+
   html[dir='ltr'] body {
     @apply font-body;
   }
@@ -19,23 +21,28 @@
 .flip-perspective {
   perspective: 1000px;
 }
+
 .flip-inner {
   transform-style: preserve-3d;
   transition: transform 0.8s cubic-bezier(0.22, 0.9, 0.32, 1.1);
 }
+
 .flip-card:hover .flip-inner,
 .flip-card:focus-within .flip-inner {
   transform: rotateY(180deg) scale(1.03);
 }
+
 .flip-face {
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 }
+
 .flip-face-back {
   transform: rotateY(180deg);
 }
 
 @media (prefers-reduced-motion: reduce) {
+
   *,
   *::before,
   *::after {

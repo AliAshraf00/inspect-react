@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Menu, Globe } from 'lucide-react';
+import { Link, useLocation } from 'react-router-dom';
 import clsx from 'clsx';
 import Button from '../ui/Button';
 import MobileDrawer from './MobileDrawer';
@@ -14,6 +15,7 @@ export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [drawerOpen, setDrawerOpen] = useState(false);
   const activeId = useScrollSpy(NAV_IDS);
+  const location = useLocation();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -57,18 +59,24 @@ export default function Header() {
           </div>
 
           <nav className="hidden items-center gap-9 lg:flex">
-            {navItems.map((item) => (
-              <a
-                key={item.id}
-                href={`#${item.id}`}
-                className={clsx(
-                  'relative py-2 text-[15px] font-medium text-ink transition-colors after:absolute after:bottom-0 after:start-0 after:h-[2px] after:w-0 after:bg-orange after:transition-[width] after:duration-300 hover:border-ink hover:text-ink hover:after:w-full',
-                  activeId === item.id && 'text-emerald after:w-full after:bg-emerald'
-                )}
-              >
-                {item.label}
-              </a>
-            ))}
+            {navItems.map((item) => {
+              const isServices = item.id === 'services';
+              const to = isServices ? '/services' : `/#${item.id}`;
+              const isActive = isServices ? location.pathname === '/services' : (location.pathname === '/' && activeId === item.id);
+
+              return (
+                <Link
+                  key={item.id}
+                  to={to}
+                  className={clsx(
+                    'relative py-2 text-[15px] font-medium text-ink transition-colors after:absolute after:bottom-0 after:start-0 after:h-[2px] after:w-0 after:bg-orange after:transition-[width] after:duration-300 hover:border-ink hover:text-ink hover:after:w-full',
+                    isActive && 'text-emerald after:w-full after:bg-emerald'
+                  )}
+                >
+                  {item.label}
+                </Link>
+              );
+            })}
           </nav>
 
           <div className="flex items-center gap-3.5">
@@ -79,11 +87,11 @@ export default function Header() {
             >
               <Globe size={16} /> {i18n.resolvedLanguage === 'ar' ? 'EN' : 'AR'}
             </button>
-            <Button as="a" href="#portal" variant="ghost" className="hidden lg:inline-flex">
+            <Button as={Link} to="/#portal" variant="ghost" className="hidden lg:inline-flex">
               {t('nav.verify')}
             </Button>
-            <Button as="a" href="#request" variant="primary">
-              {t('nav.request')}
+            <Button as={Link} to="/contact" variant="primary">
+              {t('nav.contact')}
             </Button>
             <button
               className="flex h-5 w-[26px] items-center lg:hidden"
