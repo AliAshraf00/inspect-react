@@ -32,7 +32,7 @@ export default function Hero() {
   }, [slideCount]);
 
   return (
-    <section id="hero" className="relative flex max-h-[81vh] items-center overflow-hidden bg-gradient-to-b from-[#0C1210] via-[#10171A] to-[#0C1210]">
+    <section id="hero" className="relative flex min-h-[calc(100vh-var(--header-h,140px))] items-center overflow-hidden bg-gradient-to-b from-[#0C1210] via-[#10171A] to-[#0C1210]">
       {/* Background image crossfade + Ken Burns */}
       <div className="absolute inset-0 z-0 overflow-hidden bg-[#0C1210]">
         <AnimatePresence>
@@ -88,7 +88,7 @@ export default function Hero() {
             </AnimatePresence>
           </div>
 
-          <h1 className="min-h-[3.9em] max-w-[820px] text-[34px] font-bold leading-[1.28] text-white md:text-[60px] md:min-h-[3.3em]">
+          <h1 className="max-w-[820px] text-[34px] font-bold leading-[1.28] text-white md:text-[60px]">
             <AnimatePresence mode="wait">
               <motion.span
                 key={idx}
