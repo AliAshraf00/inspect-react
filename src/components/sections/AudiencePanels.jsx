@@ -11,14 +11,14 @@ export default function AudiencePanels() {
         <div className="mb-4 text-[13px] font-bold text-orange">{t('audience.homeowners.tag')}</div>
         <h3 className="mb-4 text-[28px] font-bold leading-snug">{t('audience.homeowners.title')}</h3>
         <p className="mb-7 max-w-[440px] text-[15.5px] text-[#4B4B45]">{t('audience.homeowners.desc')}</p>
-        <Button as="a" href="#request" variant="primary">
+        <Button as="a" href="#request" variant="primary" className=' bg-orange text-white hover:bg-transparent hover:text-orange hover:border hover:border-orange   '>
           {t('audience.homeowners.cta')}
         </Button>
       </Reveal>
 
       <Reveal
         delay={0.1}
-        className="relative overflow-hidden bg-gradient-to-br from-orange to-[#F46627] p-11 text-white sm:p-16"
+        className="relative overflow-hidden bg-emerald-deep p-11 text-white sm:p-16"
       >
         <div
           className="pointer-events-none absolute inset-0"
@@ -31,9 +31,9 @@ export default function AudiencePanels() {
           <div className="mb-4 text-[13px] font-bold text-[#B9EFE8]">{t('audience.firms.tag')}</div>
           <h3 className="mb-4 text-[28px] font-bold leading-snug">{t('audience.firms.title')}</h3>
           <p className="mb-7 max-w-[440px] text-[15.5px] text-white/85">{t('audience.firms.desc')}</p>
-          <Button as="a" href="#request" variant="outlineWhite">
-            {t('audience.firms.cta')}
-          </Button>
+            <Button as="a" href="#request" variant="outlineWhite" className='bg-white !text-emerald-deep hover:bg-transparent hover:!text-white hover:border hover:border-white'>
+              {t('audience.firms.cta')}
+            </Button>
         </div>
       </Reveal>
     </div>

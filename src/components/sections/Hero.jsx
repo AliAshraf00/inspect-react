@@ -104,7 +104,7 @@ export default function Hero() {
           </h1>
 
           <div className="mt-11 flex flex-wrap gap-4">
-            <Button as="a" href="#services" variant="primary" className="px-8 py-4">
+            <Button as="a" href="#services" variant="primary" className="px-8 py-4 text-white">
               {t('hero.ctaDiscover')}
             </Button>
             <Button as="a" href="#request" variant="outlineWhite" className="px-8 py-4">

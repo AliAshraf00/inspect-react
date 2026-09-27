@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Plus } from 'lucide-react';
 import SectionHead from '../ui/SectionHead';
 import Reveal from '../ui/Reveal';
+import img from '../../assets/images/pexels-2153622414-32817699.jpg';
 
 export default function FAQ() {
   const { t } = useTranslation();
@@ -25,7 +26,7 @@ export default function FAQ() {
         <Reveal className="grid grid-cols-1 items-stretch gap-8 md:grid-cols-[0.85fr_1.15fr] md:gap-14">
           <div className="relative order-2 min-h-[280px] overflow-hidden rounded-[10px] md:order-1">
             <img
-              src="/images/faq-visual.jpeg"
+              src={img}
               alt=""
               className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 hover:scale-105"
             />
@@ -33,7 +34,7 @@ export default function FAQ() {
               className="absolute inset-0"
               style={{ background: 'linear-gradient(180deg, rgba(10,20,15,.05) 0%, rgba(6,12,9,.65) 100%)' }}
             />
-            <div className="absolute inset-x-6 bottom-6 flex items-baseline gap-2.5 rounded-lg bg-white/94 px-[22px] py-[18px] backdrop-blur-sm">
+            <div className="bg-white absolute inset-x-6 bottom-6 flex items-center gap-2.5 rounded-lg bg-white/94 px-[22px] py-[18px] backdrop-blur-sm">
               <span className="font-en text-[26px] font-extrabold text-emerald-deep" dir="ltr">
                 {t('faq.badgeNum')}
               </span>

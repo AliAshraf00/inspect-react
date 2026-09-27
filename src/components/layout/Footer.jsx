@@ -6,7 +6,8 @@ export default function Footer() {
   const { t } = useTranslation();
 
   return (
-    <footer className="relative bg-[#F7F8F6] pt-16 text-[#4B4B45] border-t-[2px] border-[#19A99F]">
+    <footer className="relative bg-[#F7F8F6] pt-16 text-[#4B4B45]">
+<div className="absolute inset-x-0 top-0 h-[2px] bg-gradient-to-r from-[#19A99F] to-orange" />
       <div className="mx-auto max-w-[1240px] px-8">
         <div className="grid grid-cols-1 gap-10 border-b border-black/10 pb-14 sm:grid-cols-2 md:grid-cols-[1.4fr_1fr_1fr_1fr_1.2fr]">
           

@@ -138,7 +138,7 @@ export default function RequestForm() {
                 </Field>
 
                 <div className="col-span-full mt-2 flex justify-start">
-                  <Button as="button" type="submit" variant="primary">
+                  <Button as="button" type="submit" variant="primary" className="text-white">
                     {t('form.submit')}
                   </Button>
                 </div>

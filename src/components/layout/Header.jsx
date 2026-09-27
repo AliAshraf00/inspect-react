@@ -90,7 +90,7 @@ export default function Header() {
             <Button as={Link} to="/#portal" variant="ghost" className="hidden lg:inline-flex">
               {t('nav.verify')}
             </Button>
-            <Button as={Link} to="/contact" variant="primary">
+            <Button as={Link} to="/contact" variant="primary" className="text-white">
               {t('nav.contact')}
             </Button>
             <button

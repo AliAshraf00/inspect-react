@@ -314,8 +314,8 @@ export default function ServicesPage() {
                 className={clsx(
                   "chip px-[18px] py-2.5 rounded-full text-[13.5px] font-semibold border-[1.5px] transition-transform",
                   activeFilter === g
-                    ? "active bg-[var(--ink)] text-white border-[var(--ink)]"
-                    : "bg-white text-[#4B4B45] border-[var(--line)] hover:border-[var(--ink)]"
+                    ? "active bg-emerald-deep text-white "
+                    : "bg-white text-[#4B4B45] border-[var(--line)] hover:border-emerald-deep",
                 )}
                 onClick={() => setActiveFilter(g)}
               >
@@ -468,10 +468,10 @@ export default function ServicesPage() {
       {/* ================= CTA ================= */}
       <section className="py-16 md:py-24">
         <div className="wrap mx-auto max-w-[1240px] px-5 md:px-8">
-          <div className="bg-[var(--ink)] text-white rounded-lg px-7 md:px-12 py-10 md:py-14 flex items-center justify-between gap-6 flex-wrap">
+          <div className="bg-emerald-deep text-white rounded-lg px-7 md:px-12 py-10 md:py-14 flex items-center justify-between gap-6 flex-wrap">
             <h3 className="text-[22px] md:text-[27px] font-bold max-w-[440px] leading-[1.4]">{t("servicesPage.ctaTitle")}</h3>
             <div className="flex gap-3.5 flex-wrap">
-              <Link to="/contact" className="px-6 py-3 rounded-[3px] font-bold text-[15px] bg-[var(--emerald)] text-white hover:bg-[var(--emerald-deep)] transition-colors">
+              <Link to="/contact" className="px-6 py-3 rounded-[3px] font-bold text-[15px] bg-white text-emerald border border-transparent hover:bg-transparent hover:text-white hover:border-white transition-colors">        
                 {t("servicesPage.ctaRequest")}
               </Link>
               <a href="/#portal" className="px-6 py-3 rounded-[3px] font-bold text-[15px] border-[1.5px] border-[rgba(255,255,255,.55)] hover:border-white hover:bg-white/10 transition-colors">

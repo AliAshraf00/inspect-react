@@ -2,7 +2,7 @@ import clsx from 'clsx';
 
 const VARIANTS = {
   primary:
-    'bg-emerald text-white hover:bg-emerald-deep hover:shadow-[0_12px_24px_-10px_rgba(25,169,159,0.55)] overflow-hidden relative isolate',
+    'bg-emerald overflow-hidden relative isolate',
   ghost: 'bg-transparent text-ink border-[1.5px] border-black/10 hover:border-ink',
   outlineWhite: 'bg-transparent text-white border-[1.5px] border-white/55 hover:border-white hover:bg-white/10',
 };

@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { ChevronLeft } from 'lucide-react';
 import SectionHead from '../ui/SectionHead';
 import Reveal from '../ui/Reveal';
+import img from '../../assets/images/WhatsApp Image 2026-09-13 at 4.14.26 PM.jpeg';
 
 export default function Blog() {
   const { t } = useTranslation();
@@ -25,16 +26,16 @@ export default function Blog() {
           <a href="#" className="group flex flex-col overflow-hidden border-black/10 bg-bg md:border-e">
             <div
               className="relative h-[280px] bg-cover bg-center"
-              style={{ backgroundImage: "url('/images/blog-featured.jpeg')" }}
+              style={{ backgroundImage: `url(${img})` }}
             >
               <div
-                className="absolute inset-0 transition-transform duration-700 group-hover:scale-[1.08]"
+                className="absolute inset-0 transition-transform duration-700"
                 style={{
                   background:
                     'linear-gradient(180deg, rgba(10,20,15,.08) 0%, rgba(8,16,12,.05) 40%, rgba(6,12,9,.55) 100%)',
                 }}
               />
-              <span className="absolute top-[18px] end-[18px] rounded-full bg-white/92 px-3.5 py-1.5 text-[11.5px] font-bold text-emerald-deep backdrop-blur-sm">
+              <span className="absolute top-[18px] end-[18px] rounded-full bg-white/92 px-3.5 py-1.5 text-[11.5px] font-bold text-white backdrop-blur-sm">
                 {featured.badge}
               </span>
               <span className="absolute bottom-4 start-[18px] font-en text-[13px] font-bold text-white/75" dir="ltr">

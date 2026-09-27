@@ -7,8 +7,8 @@ export default function Portal() {
   const { t } = useTranslation();
 
   const cards = [
-    { ...t('portal.verify', { returnObjects: true }), bg: 'bg-emerald-deep' },
-    { ...t('portal.client', { returnObjects: true }), bg: 'bg-gradient-to-br from-orange to-[#F46627]' },
+    { ...t('portal.verify', { returnObjects: true }), bg: 'bg-emerald-deep' , text: 'text-white', btn: 'text-emerald-deep bg-white hover:bg-transparent hover:text-white hover:border hover:border-white' , paragraph: 'text-white' },
+    { ...t('portal.client', { returnObjects: true }), bg: 'border border-orange', text: 'text-orange', btn: 'text-white bg-orange hover:bg-transparent hover:text-orange hover:border hover:border-orange' , paragraph: 'text-orange' },
   ];
 
   return (
@@ -27,13 +27,13 @@ export default function Portal() {
           {cards.map((card) => (
             <Reveal
               key={card.title}
-              className={`flex flex-wrap items-center justify-between gap-5 rounded-md p-9 text-white transition-transform hover:-translate-y-1 ${card.bg}`}
+              className={`flex flex-wrap items-center justify-between gap-5 rounded-md p-9 text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_30px_50px_-24px_rgba(17,17,17,0.32)] ${card.bg}`}
             >
               <div>
-                <h4 className="mb-2 text-[19px] font-bold">{card.title}</h4>
-                <p className="max-w-[320px] text-sm text-white/80">{card.desc}</p>
+                <h4 className={`mb-2 text-[19px] font-bold ${card.text} `} >{card.title}</h4>
+                <p className={`max-w-[320px] text-sm ${card.paragraph}`}>{card.desc}</p>
               </div>
-              <Button as="a" href="#" variant="outlineWhite">
+              <Button as="a" href="#"  className={card.btn}>
                 {card.cta}
               </Button>
             </Reveal>
