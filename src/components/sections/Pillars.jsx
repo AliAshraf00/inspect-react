@@ -29,13 +29,14 @@ export default function Pillars() {
                 className="group relative overflow-hidden bg-white p-8 pb-8 pt-9"
               >
                 <span
-                  className="pointer-events-none absolute start-4 top-1.5 font-en text-7xl font-extrabold leading-none text-ink opacity-[.06] transition-all duration-300 group-hover:-translate-y-1 group-hover:opacity-10"
+                    className="pointer-events-none absolute right-4 top-1.5 font-en text-7xl font-extrabold leading-none text-ink opacity-[.06] transition-all duration-300 group-hover:-translate-y-1 group-hover:opacity-10"
+
                   dir="ltr"
                 >
                   {item.num}
                 </span>
                 <span className="absolute end-0 top-0 h-0 w-[3px] bg-orange transition-[height] duration-300 group-hover:h-full" />
-                <div className="relative z-[1] mb-[22px] flex h-14 w-14 items-center justify-center rounded-full border-[1.5px] border-black/10 transition-all duration-300 group-hover:scale-105 group-hover:border-orange group-hover:bg-emerald-tint">
+<div className="relative z-[1] mb-[22px] mr-auto flex h-14 w-14 items-center justify-center rounded-full border-[1.5px] border-black/10 transition-all duration-300 group-hover:scale-105 group-hover:border-orange group-hover:bg-emerald-tint">
                   <Icon className="h-[26px] w-[26px] text-orange transition-transform duration-300 group-hover:-rotate-[8deg]" />
                 </div>
                 <h4 className="relative z-[1] mb-2.5 text-[17px] font-bold">{item.title}</h4>
